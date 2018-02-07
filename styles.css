@@ -4,12 +4,12 @@
      padding-right:2em;
  }
  header {
-     padding-bottom: 2em;
-     padding-top: 3em; 
-     padding-left: 2em;
+     padding-bottom: 10px;
+     padding-top: 60px; 
+     padding-left: 20px;
      background: #b98a8a;
      color: white;
-     border-bottom: 1em solid grey;
+     border: 10px solid grey;
  }
  h1 {
      font-family: Arial, Helvetica, sans-serif;
@@ -17,20 +17,79 @@
      line-height: 1.6;
  }
  h2 {
-     font-family: helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif;
      font-size: 32px;
      line-height: 1;
  }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: inherit;
     line-height: 1.6;
 }
 
 .navigation {
-     font-size: 18px;
+     font-size: 32px;
      line-height: 1.6;
-    
      font-family: Arial, Helvetica, sans-serif;
+     border-top: 5px solid rgb(255, 0, 0);
+     padding-top: 10px;
+
+}
+a {
+    text-decoration: none;
+}
+
+.post {
+    margin-bottom:100px;
+    font-size: 20px;
+
+}
+
+.intro {
+padding-top: 20px;
+padding-bottom: 0px;
+font-size:20px;
+}
+
+#intromsgbox {
+    font-size:44px;
+    color:white;
+    background: cadetblue;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 5px solid #0004ff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+       
+}
+
+#intromsgboximg {
+    height: 200px;
+    
+}
+
+#napishi {
+    font-size:44px;
+    color:black;
+    background-color: inherit;
+    padding: 0px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    display:flex;
+    align-items: center;
+    
+}
+
+input {
+    border:none;
+    outline:none;
+    font-size:44px;
+}
+
+span.centerImage {
+    text-align: center;
 }
